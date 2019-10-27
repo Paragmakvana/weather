@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/53945ebcb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="searchcontainer">
+        <input class="searchControl" type="text" placeholder="City Name OR ZIP" id="searchInput">
+        <button class="searchControl" id="searchBtn"><i class="fas fa-search"></i></button>
+    </div>
+    <div id="weatherContainer">
+        <div id="waetherDescription">
+            <h1 id="cityHeader"></h1>
+            <div id="weatherMain">
+                <div id="temperature"></div>
+                <div id="weatherDescriptionHeader"></div>
+                <div><img id="documentIconImg"></div>
+            </div>
+            <hr>
+            <div id="windSpeed" class="bottomDetails"></div>
+            <div id="humidity" class="bottomDetails"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
